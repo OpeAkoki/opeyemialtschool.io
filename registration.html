@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form - AltSchool</title>
+    <link rel="stylesheet" href="registration.css">
+</head>
+<body>
+
+
+
+<main>
+    <section>
+        <form>
+            <h2>Application Form</h2>
+            <p>Fill in your details</p>
+        
+            <!-- First Row -->
+            <div>
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" name="firstName" placeholder="Enter First Name" required>
+        
+                <label for="lastName">Last Name:</label>
+                <input type="text" id="lastName" name="lastName" placeholder="Enter Last Name" required>
+            </div>
+        
+            <!-- Second Row -->
+            <div>
+                <label for="gender">Gender:</label>
+                <select id="gender" name="gender" placeholder="Enter Gender" required>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+        
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" placeholder="DD/MM/YY" required>
+            </div>
+        
+            <!-- Third Row -->
+            <div>
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" placeholder="Enter Email Address" required>
+        
+                <label for="education">Educational Level:</label>
+                <select id="education" name="education" placeholder="Enter Educational Level" required>
+                    <option value="bsc">BSc</option>
+                    <option value="msc">MSc</option>
+                    <option value="diplomat">Diplomat</option>
+                    <option value="phd">Doctorate (PhD)</option>
+                    <option value="highSchool">High School/Secondary School</option>
+                    <option value="undergraduate">Undergraduate</option>
+                    <option value="middleSchool">Junior/Middle School</option>
+                    <option value="postgraduate">Postgraduate</option>
+                </select>
+            </div>
+        
+            <!-- Fourth Row -->
+            <div>
+                <label for="country">Country:</label>
+                <select id="country" name="country" placeholder="Select Country" required>
+                    <!-- Include a list of all countries -->
+                    <option value="country1">Country 1</option>
+                    <option value="country2">Country 2</option>
+                    <!-- Add more countries as needed -->
+                </select>
+        
+                <label for="city">State/City of Residence:</label>
+                <input type="text" id="city" name="city" placeholder="Enter City of Residence" required>
+            </div>
+        
+            <!-- Fifth Row -->
+            <div>
+                <label for="employmentStatus">Employment Status:</label>
+                <select id="employmentStatus" name="employmentStatus" placeholder="Select Employment Status" required>
+                    <option value="employed">Employed</option>
+                    <option value="unemployed">Unemployed</option>
+                    <!-- Add more options as needed -->
+                </select>
+        
+                <label for="phoneNumber">Phone Number:</label>
+                <input type="tel" id="phoneNumber" name="phoneNumber" placeholder="00000000000" required>
+            </div>
+        
+            <!-- Sixth Row -->
+            <div>
+                <label for="school">Choose School:</label>
+                <select id="school" name="school" placeholder="Select School" required>
+                    <!-- Add options for schools -->
+                    <option value="school1">School 1</option>
+                    <option value="school2">School 2</option>
+                    <!-- Add more schools as needed -->
+                </select>
+        
+                <label for="course">Choose Course of Study:</label>
+                <select id="course" name="course" placeholder="Select Course of Study" required>
+                    <!-- Add options for courses -->
+                    <option value="course1">Course 1</option>
+                    <option value="course2">Course 2</option>
+                    <!-- Add more courses as needed -->
+                </select>
+            </div>
+        
+            <!-- Seventh Row -->
+            <div>
+                <label for="hearAboutUs">How did you hear about us:</label>
+                <select id="hearAboutUs" name="hearAboutUs" placeholder="Select Channel" required>
+                    <option value="website">Website</option>
+                    <option value="socialMedia">Social Media</option>
+                    <option value="friend">Friend/Family</option>
+                    <!-- Add more options as needed -->
+                </select>
+        
+                <label for="discountCode">Scholarship/Discount Code:</label>
+                <input type="text" id="discountCode" name="discountCode" placeholder="Enter Code">
+            </div>
+        
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+</main>
+
+<footer>
+    <nav>
+        <a href="index.html">About me page</a>
+    </nav>
+</footer>
+
+</body>
+</html>
